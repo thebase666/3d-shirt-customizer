@@ -17,13 +17,11 @@ const CanvasModel = () => {
       className='w-full max-w-full h-full transition-all ease-in'
     >
       <ambientLight
-        intensity={0.5}
+        intensity={1.5}
         // color='#41D1FF'
       />
       {/* 这个光是3js的  color='#41D1FF'可给color  intensity - (参数可选)光照的强度 */}
 
-      <Environment preset='city' />
-      {/* 这个光是drei的 环境光 用city就可以 否则太暗  */}
 
       <CameraRig>
         <Backdrop />
